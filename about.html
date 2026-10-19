@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#fafafa" />
+    <meta name="description" content="About Me — Ilham Ziqri." />
+    <title>About Me — Ilham Ziqri</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="font" href="assets/fonts/KHMenu.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="image" href="assets/images/about-profile.webp" />
+    <link rel="preload" as="image" href="assets/images/portfolio-wallpaper.webp" />
+    <link data-page-style rel="stylesheet" href="assets/css/about.css" />
+    <script src="assets/js/core/navigation.js" defer></script>
+    <script src="assets/js/core/confirm-sfx.js" defer></script>
+  </head>
+  <body>
+    <main class="about-screen" aria-labelledby="about-title" tabindex="-1">
+      <img
+        class="wallpaper-image"
+        src="assets/images/portfolio-wallpaper.webp"
+        alt=""
+        aria-hidden="true"
+        fetchpriority="high"
+      />
+      <section class="about-panel">
+        <header class="about-header"><h1 id="about-title">About Me</h1></header>
+        <div class="about-content">
+          <figure class="about-photo">
+            <img
+              src="assets/images/about-profile.webp"
+              alt="Gambar profil Ilham Ziqri"
+              width="1024"
+              height="1024"
+              fetchpriority="high"
+            />
+          </figure>
+          <article class="about-biography" aria-labelledby="about-name">
+            <h2 id="about-name">Ilham Ziqri</h2>
+            <p>
+              I'm a frontend web designer and developer, crafting interfaces that feel alive,
+              intuitive, and memorable.
+            </p>
+            <p>
+              I focus on thoughtful micro-interactions, bold visual identity, and accessible
+              experiences. Games inspire the way I bring design and motion together on the web.
+            </p>
+          </article>
+        </div>
+        <div class="about-bottom-rule" aria-hidden="true"></div>
+      </section>
+    </main>
+    <audio id="menu-sfx" src="assets/audio/menu-sfx.mp3" preload="auto"></audio>
+    <audio id="confirm-sfx" src="assets/audio/confirm-sfx.mp3" preload="auto"></audio>
+    <audio id="back-sfx" src="assets/audio/back-sfx.mp3" preload="auto"></audio>
+  </body>
+</html>
